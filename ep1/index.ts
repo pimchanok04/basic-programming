@@ -1,16 +1,16 @@
 
-const firstname : string = "พิมพ์ชนก"
-var y :number = 10
+const firstName: string = "pimchanok"
+var y: number = 10
 y = 20
-var want_to_go_home : boolean = true
+var wantToGoHome: boolean = true
 
-console.log(firstname)
+console.log(firstName)
 console.log(y)
-console.log(want_to_go_home)
+console.log(wantToGoHome)
 
 
-const a : number = 4
-const b : number = 6
-console.log(a===b)
-console.log(a>b)
-console.log(a<=b)
+const a: number = 4
+const b: number = 6
+console.log(a === b)
+console.log(a > b)
+console.log(a <= b)
