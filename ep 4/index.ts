@@ -107,3 +107,14 @@ console.log(getCharByIndex('หิวข้าววว', 3))
 const str: string = 'ฉันรักเธอ'
 
 console.log(str.includes('รัก'))
+
+
+
+function RuBy(str: string, search: string) {
+    if (str.includes(search)) [
+        console.log(str.indexOf(search))
+    ] else {
+        console.log('ไม่พบคำค้นหา')
+    }
+}
+RuBy('อยากกลับบ้าน', 'บ้าน')
