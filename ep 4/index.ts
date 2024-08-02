@@ -82,3 +82,11 @@ function fix(a: number) {
 console.log(fix(100000))
 
 
+const str: string = "Pimchanok"
+
+console.log(str.toLowerCase())
+
+
+const str: string = "Pimchanok"
+
+console.log(str.toUpperCase())
