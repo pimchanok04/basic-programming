@@ -15,4 +15,4 @@ function shape(height: number , weight: number) {
         return 'Error'
     }
 }
-console.log(shape(1.58,42)
+console.log(shape(1.58,42))
