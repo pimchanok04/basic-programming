@@ -111,9 +111,9 @@ console.log(str.includes('รัก'))
 
 
 function RuBy(str: string, search: string) {
-    if (str.includes(search)) [
+    if (str.includes(search)) {
         console.log(str.indexOf(search))
-    ] else {
+    } else {
         console.log('ไม่พบคำค้นหา')
     }
 }
