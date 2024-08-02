@@ -96,3 +96,9 @@ function checkSrtingLength(x: string) {
     console.log (x.length)
 }
 checkSrtingLength('Pimchanok')
+
+
+function getCharByIndex(msg: string, index: number) {
+    return msg.charAt(index)
+}
+console.log(getCharByIndex('หิวข้าววว', 3))
