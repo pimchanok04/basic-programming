@@ -67,3 +67,10 @@ function shirt(size: string) {
     }
 }
 shirt ('m')
+
+
+function fixedDecimal(n: number, digit: number) {
+    const x = n.toFixed(digit)
+    return x
+}
+console.log(fixedDecimal(40.67676, 10))
