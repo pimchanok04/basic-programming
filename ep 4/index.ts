@@ -102,3 +102,8 @@ function getCharByIndex(msg: string, index: number) {
     return msg.charAt(index)
 }
 console.log(getCharByIndex('หิวข้าววว', 3))
+
+
+const str: string = 'ฉันรักเธอ'
+
+console.log(str.includes('รัก'))
