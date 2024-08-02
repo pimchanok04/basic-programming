@@ -90,3 +90,9 @@ console.log(str.toLowerCase())
 const str: string = "Pimchanok"
 
 console.log(str.toUpperCase())
+
+
+function checkSrtingLength(x: string) {
+    console.log (x.length)
+}
+checkSrtingLength('Pimchanok')
