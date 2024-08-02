@@ -74,3 +74,11 @@ function fixedDecimal(n: number, digit: number) {
     return x
 }
 console.log(fixedDecimal(40.67676, 10))
+
+
+function fix(a: number) {
+    return a.toLocaleString()
+}
+console.log(fix(100000))
+
+
