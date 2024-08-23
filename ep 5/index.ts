@@ -152,3 +152,7 @@ const friend: string[] = ['Pimchanok', 'Thananchanok', 'NAtchaporn', 'Sunisa', '
         console.log('ไปกินหมูกระทะกัน')
      }
  }
+
+
+
+ 
