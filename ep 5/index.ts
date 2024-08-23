@@ -131,7 +131,7 @@ while (i <= cars.length) {
 
 const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
 
-// for fiet i = 0; i < cars.length; i++
+// for let i = 0; i < cars.length; i++
 //     if (cars[1] === 'Yamaha') {
 //         console.log('รถซสื้อแกง จะแรงได้ยังไง)
 //      }
