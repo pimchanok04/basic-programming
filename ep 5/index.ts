@@ -126,3 +126,22 @@ while (i <= cars.length) {
     }
     i++
 }
+
+
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+
+// for fiet i = 0; i < cars.length; i++
+//     if (cars[1] === 'Yamaha') {
+//         console.log('รถซสื้อแกง จะแรงได้ยังไง)
+//      }
+// }
+
+// console.log(cars.includes('BYD))
+
+const str: string = 'forth'
+
+console.log(str.indexOf('X'))
+
+
+
