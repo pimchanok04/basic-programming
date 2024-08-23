@@ -85,3 +85,26 @@ const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
 cars[2] = 'Isuzu'
 
 console.log(cars[2])
+
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+
+console.log(cars[0])
+console.log(cars[1])
+console.log(cars[2])
+console.log(cars[3])
+console.log(cars[4])
+
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+
+for (let i = 0; 1 < 5; i++) {
+    console.log(cars[1])
+}
+
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+
+for (let i = 0; 1 < cars.length; i++) {
+    console.log(cars[1])
+}
