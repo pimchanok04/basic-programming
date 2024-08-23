@@ -66,3 +66,16 @@ let car5: string = 'Mazda'
 const cars: string[]= ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
 const num: number[] = [1, 2, 3, 4, 5]
 const bool: boolean[] = [true,true,true,true,true]
+
+
+// connst cars: string[] = {'Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda'}
+
+const str: string ='ชอบก็จัด ประหยัดทำไม'
+
+console.log(str.charAt(2))
+
+// connst cars: string[] = {'Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda'}
+
+const str: string ='ชอบก็จัด ประหยัดทำไม'
+
+console.log(str[2])
