@@ -55,3 +55,14 @@ do {
     console.log('ฉัันอายุ ' + i + 'ปี')
     i++
 } while (i <= 20)
+
+
+    let car1: string = 'Toyota'
+let car2: string = 'Honda'
+let car3: string = 'Suzuki'
+let car4: string = 'Yamaha'
+let car5: string = 'Mazda'
+
+const cars: string[]= ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+const num: number[] = [1, 2, 3, 4, 5]
+const bool: boolean[] = [true,true,true,true,true]
