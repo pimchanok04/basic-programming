@@ -108,3 +108,21 @@ const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
 for (let i = 0; 1 < cars.length; i++) {
     console.log(cars[1])
 }
+
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+
+for (let i = 0; 1 < cars.length; i++) {
+    if (cars[1] === 'Yamaha'){
+        console.log('รถซื้อแกง จะแรงได้ยังไง')
+    }
+}
+
+let i: number = 0
+
+while (i <= cars.length) {
+    if (cars[i] === 'Yamaha') {
+        console.log('รถซื้อแกง จะแรงได้ยังไง')
+    }
+    i++
+}
