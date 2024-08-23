@@ -145,3 +145,10 @@ console.log(str.indexOf('X'))
 
 
 
+const friend: string[] = ['Pimchanok', 'Thananchanok', 'NAtchaporn', 'Sunisa', 'Morakot']
+
+ for (let i = 0; i < friend.length; i++) {
+     if (friend[i] === 'Morakot') {
+        console.log('ไปกินหมูกระทะกัน')
+     }
+ }
