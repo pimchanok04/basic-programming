@@ -28,3 +28,12 @@
 
 
 
+let count: number = 0
+
+while (true) {
+    console.log("โสดโว้ย")
+    count++
+    if (count === 10) {
+        break
+    }
+}
