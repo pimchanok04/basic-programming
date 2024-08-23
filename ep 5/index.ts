@@ -79,3 +79,9 @@ console.log(str.charAt(2))
 const str: string ='ชอบก็จัด ประหยัดทำไม'
 
 console.log(str[2])
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda']
+
+cars[2] = 'Isuzu'
+
+console.log(cars[2])
