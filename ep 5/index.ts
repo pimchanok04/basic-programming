@@ -37,3 +37,21 @@ while (true) {
         break
     }
 }
+
+
+
+for (let i = 1; i <= 20; i++) {
+    console.log('ฉันอายุ ' + i + 'ปี')
+}
+
+let i: number = 1
+while (i <= 20) {
+    console.log('ฉํนอายุ ' + i + 'ปี')
+    i++
+}
+
+let i: number = 1
+do {
+    console.log('ฉัันอายุ ' + i + 'ปี')
+    i++
+} while (i <= 20)
