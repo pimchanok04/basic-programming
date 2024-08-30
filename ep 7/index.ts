@@ -40,3 +40,25 @@ const animalArray: string[] = animal.split('*')
 
 console.log(animal)
 console.log(animalArray)
+
+
+
+const animal: string = ('หมา*แมว*กระต่าย*โลมา')
+
+const animalArray: string[] = animal.split('*')
+
+console.log("ตั้งต้น: " , animalArray)
+
+console.log("เอาตัวสุดท้ายออก: ", animalArray)
+
+animalArray.push('ยีราฟ') // ใส่ต่อท้าย
+
+console.log("ใส่ต่อทท้าย: ", animalArray)
+
+animalArray.shift() //เอาตัวหน้าออก
+
+console.log("เอาตัวหน้าออก: ", animalArray)
+
+animalArray.unshift('กาปิบาร่า') //ใส่ตัวหน้า
+
+console.log("ใส่ตัวหน้า: ", animalArray)
