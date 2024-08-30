@@ -32,3 +32,11 @@ const fullname: string = 'สุดสวย สวยสุด'
 console.log(fullname.split(' ')[1])
 
 console.log(fullname.slice(0, fullname.indexOf))
+
+
+const animal: string = ('หมา*แมว*กระต่าย*โลมา')
+
+const animalArray: string[] = animal.split('*')
+
+console.log(animal)
+console.log(animalArray)
