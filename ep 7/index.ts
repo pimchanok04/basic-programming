@@ -9,3 +9,21 @@ for (let i = 0; i < score.length; i++) {
 let avg = sum / score.length
 console.log("Total: ", sum)
 console.log("Avg: ", avg)
+
+
+const myStudents: string = "เซน,แทน,เวฟ,รุ้ง,เท็ก,สร"
+
+const myStudentsArray: string[] = myStudents.split(',')
+
+console.log(myStudents)
+console.log(myStudentsArray)
+
+
+const myStudents: string = "เซน,แทน,เวฟ,รุ้ง,เท็ก,สร"
+
+const myStudentsArray: string[] = myStudents.split('#')
+
+console.log(myStudents)
+console.log(myStudentsArray)
+
+
