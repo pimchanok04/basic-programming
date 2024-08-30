@@ -62,3 +62,19 @@ console.log("เอาตัวหน้าออก: ", animalArray)
 animalArray.unshift('กาปิบาร่า') //ใส่ตัวหน้า
 
 console.log("ใส่ตัวหน้า: ", animalArray)
+
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"]
+
+fruits.sort() //เรียง A - Z
+
+console.log("เรียงA-Z: ", fruits)
+
+fruits.reverse() //เรียง Z - A
+
+console.log("เรียงZ-A: ", fruits)
+
+const fruitsSlice = fruits.slice(0, 2)
+
+console.log("ตัด: ", fruits)
