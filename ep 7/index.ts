@@ -78,3 +78,20 @@ console.log("เรียงZ-A: ", fruits)
 const fruitsSlice = fruits.slice(0, 2)
 
 console.log("ตัด: ", fruits)
+
+
+
+const me = {
+    firstName: 'pimchanok',
+    lastname: 'Benjaluck',
+    age: 20
+}
+
+console.log(me)
+// ประวัติส่วนตัว
+// ชื่อ: Pimchanook
+// นามสกุล: ฺBenjaluck
+// อายุ: 20
+
+
+
