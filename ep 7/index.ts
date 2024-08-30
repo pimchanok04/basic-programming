@@ -27,3 +27,8 @@ console.log(myStudents)
 console.log(myStudentsArray)
 
 
+const fullname: string = 'สุดสวย สวยสุด'
+
+console.log(fullname.split(' ')[1])
+
+console.log(fullname.slice(0, fullname.indexOf))
