@@ -1021,11 +1021,17 @@ const covidDeath = database.filter(function(element, index) {
     return element.total_death > 5 && element.province !== 'ทั้งประเทศ'
 }).map(function (element, index) {
     return ({
-        province: element.province
-        total death: element.total_death
+        province: element.province,
+        total_death: element.total_death
     })
 })
 
+let covidprovince = []
 
+for (let i = 0; i < database.length; i++) {
+    if (database[i].total_death > 5) {
+        covidprovince.push(database[1])
+    }
+}
 
-
+console.log('filter with for loop:', covidprovince)
