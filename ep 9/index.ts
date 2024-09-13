@@ -338,8 +338,8 @@ const games = [
 
 
     const person = {
-        firstName: 'Tim',
-        lastName: 'Cooking',
+        firstName: 'Tony',
+        lastName: 'Stay',
         age: 60,
         job: 'CEO',
         fullName:function() {
@@ -359,15 +359,6 @@ const games = [
 
 
 
-    const person = {
-        firstName: 'Tony',
-        lastName: 'stay',
-        age: 60,
-        job: 'CEO',
-        fullName:function() {
-            return person.firstName + " " + person.lastName
-        }
-    }
     
     const boyfriend = {
         firstName: 'Tim',
