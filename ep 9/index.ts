@@ -4485,7 +4485,13 @@ const games = [
             return this.data.filter(function(element, index) {
                 return element.airing === true
             })
+        },
+        notAiring: function () {
+            return this.data.filter(function(element, index) {
+                return element.airing === false
+            })
         }
     }
     
-    console.log(demonslayer.airing())
+    console.log(demonslayer.notAiring())
+    
