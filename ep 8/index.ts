@@ -25,7 +25,7 @@ console.log(aboutMe.myBro.AKA)
 
 
 
-onst myFriends = [{
+const myFriends = [{
     fistName: 'Lisa',
         lastName: 'Balcpink',
         AKA: 'cat',
@@ -1019,10 +1019,10 @@ const database =
 
 const covidDeath = database.filter(function(element, index) {
     return element.total_death > 5 && element.province !== 'ทั้งประเทศ'
-}).map(funcetion (element, index) {
+}).map(function (element, index) {
     return ({
         province: element.province
-        total_death: element.total_death
+        total death: element.total_death
     })
 })
 
