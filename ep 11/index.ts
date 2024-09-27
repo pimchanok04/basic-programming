@@ -1,7 +1,7 @@
 const database = [
     {
         email: 'max@utk.ac.th',
-        password: 'maxi@utk1234'
+        password: 'bWF4aUB1dGsxMjM0'
     }
 ]
 
@@ -25,4 +25,3 @@ function login(email: string, password: string) {
 }
 
 login('max@utk.ac.th','maxi@utk1234')
-
